@@ -200,6 +200,11 @@ footer p{
     background: linear-gradient(to top,  #0321bb8f, #00545dd7);
 }
 
+.bounty-container a{
+    font-size: 14px;
+    text-decoration: none;
+}
+
 .bounty-container h1{
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
