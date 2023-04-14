@@ -138,6 +138,7 @@ h1{
         justify-content: space-between;
         padding: 0 10px;
         box-sizing: border-box;
+        background: linear-gradient(to right, #065e68, #09185f);
     }
 
     .social{
