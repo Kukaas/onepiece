@@ -200,9 +200,10 @@ footer p{
     background: linear-gradient(to top,  #0321bb8f, #00545dd7);
 }
 
-.bounty-container a{
-    font-size: 14px;
+a{
+    font-size: 20px;
     text-decoration: none;
+    margin: 15px;
 }
 
 .bounty-container h1{
