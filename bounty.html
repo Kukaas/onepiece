@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Strawhat Bounties</title>
+</head>
+<body>
+    <div class="bounty-container">
+        <a href="index.html">&LeftArrow; Go back</a>
+        <h1>Strawhat Bounties</h1>
+        <div class="line"></div>
+        <div class="image-container">
+            <div class="image"><img src="images/luffy.jpg" alt=""></div>
+            <div class="image"><img src="images/zoro.jpg" alt=""></div>
+            <div class="image"><img src="images/nami.jpg" alt=""></div>
+            <div class="image"><img src="images/ussop.jpg" alt=""></div>
+            <div class="image"><img src="images/sanji.jpg" alt=""></div>
+            <div class="image"><img src="images/chopper.jpg" alt=""></div>
+            <div class="image"><img src="images/robin.jpg" alt=""></div>
+            <div class="image"><img src="images/franky.jpg" alt=""></div>
+            <div class="image"><img src="images/brook.jpg" alt=""></div>
+            <div class="image"><img src="images/jinbei.jpg" alt=""></div>
+        </div>
+
+        <div class="popup">
+            <span>&times;</span>
+            <img src="images/luffy.jpg" alt="">
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © 2023 Kukaaasss <br> One Piece is Real. All rights reserved.</p>
+      </footer>
+
+    <script>
+        document.querySelectorAll('.image-container img').forEach(image =>{
+            image.onclick = () => {
+                document.querySelector('.popup').style.display = 'block';
+                document.querySelector('.popup img').src = image.getAttribute('src');
+            }
+        });
+
+        document.querySelector('.popup span').onclick = () =>{
+            document.querySelector('.popup').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
