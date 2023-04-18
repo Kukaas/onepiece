@@ -113,6 +113,10 @@ h1{
     transform: translateX(-20%);
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 .social{
     width: 50px;
     text-align: center;
